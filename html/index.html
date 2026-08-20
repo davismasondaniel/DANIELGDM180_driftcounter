@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DANIELGDM180 Drift Counter</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="hud" class="hidden">
+  <div class="row-top">
+    <div class="brand"><img src="logo.png" alt="DANIELGDM180" class="brand-logo"></div>
+    <div class="status" id="status">STANDBY</div>
+  </div>
+
+  <div class="score-block">
+    <div>
+      <div class="score-label">Drift score</div>
+      <div class="score-value" id="score">0</div>
+    </div>
+    <div class="combo">
+      <div class="combo-value" id="combo">x1.0</div>
+      <div class="combo-label">Combo</div>
+    </div>
+  </div>
+
+  <div class="angle-gauge">
+    <div class="angle-num"><span id="angleVal">0</span>&deg; <small>ANGLE</small></div>
+  </div>
+
+  <div class="meters">
+    <div>
+      <div class="meter-label">Angle <b id="angleBar">0%</b></div>
+      <div class="meter-track"><div class="meter-fill" id="angleFill" style="width:0%"></div></div>
+    </div>
+  </div>
+
+  <div class="footer-row">
+    <div>Best chain<b id="best">0</b></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
