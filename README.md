@@ -57,8 +57,8 @@ All settings live in `client/Config.lua`:
 ```
 DANIELGDM180_driftcounter/
 ├── client/
-│   ├── Config.lua      # All tunable settings
 │   └── main.lua         # Drift detection, scoring, and NUI messaging
+├── config.lua           # All tunable settings
 ├── html/
 │   ├── index.html        # HUD markup
 │   ├── style.css         # HUD styling

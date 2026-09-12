@@ -7,7 +7,7 @@ description 'Live drift counter HUD'
 version '1.0.0'
 
 client_scripts {
-    'client/Config.lua',
+    'Config.lua',
     'client/main.lua'
 }
 
